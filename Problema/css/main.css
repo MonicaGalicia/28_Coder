@@ -1,0 +1,142 @@
+/* nav */
+nav.navbar  { /*color navegador*/
+    background-color:transparent;
+	border:transparent;
+}
+#bg-imagen{ /*fondo*/
+	background-image:url("../img/header.jpg");
+	background-size:cover;
+	height:700px;
+	background-repeat:no-repeat;
+}
+
+.portafolio{ /*Mi portafolio*/
+	margin-left:5%;
+}
+
+.jumbotron{
+	background-color:transparent;
+	color:white;
+
+}
+
+/*nav*/
+/*general*/
+.text-white{
+	color:white;
+}
+.hr-orange{
+	border: 1px solid orange;
+}
+
+hr{
+	width:100px;
+}
+
+#hr-white{
+	border: 1px solid white;
+}
+
+.bg-orange{
+	background-color:orange;
+	height:200px;
+}
+
+.btn{
+	width:28%;
+	height:50px;
+	border-radius:15px;
+	margin-left:40%;
+}
+
+#btn-orange{
+	background-color:orange;
+	border:orange;
+}
+#btn-white{
+	background-color:white;
+	border:white;
+}
+
+.orange{
+	color:orange;
+}
+
+.mg-bottom{
+	margin-bottom:100px;
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+	color:black;
+}
+.padding{
+   padding:0px!important;
+}
+
+.bg-grey{
+	background-color:#273746;
+	height:150px;
+}
+
+#hr-red{
+	border-color:red;
+}
+
+.glyphicon{
+	font-size:25px;
+}
+/*seccion hover naranja*/
+.img{
+	width:100%;
+	position:relative;
+}
+.org:hover{
+  opacity:1;
+}
+
+.org{
+	position:absolute;
+	top:0;
+	background-color:rgba(250, 130,88,0.5);
+    background-size:100%;
+    height:100%;
+    opacity:0;
+}
+
+.h4{
+   margin-top:20%;
+}
+/*seccion hover naranja*/
+
+
+@media screen and (max-width :600px) {
+	.img{
+	width:100%; /*6 img*/
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
